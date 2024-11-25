@@ -1,0 +1,37 @@
+.games{
+    padding: 0 5%;
+    display: flex;
+    justify-content: center;
+
+    .container{
+        height: 100%;   
+
+        .title{
+            font-family: 'Baloo 2';
+            font-weight: bold;
+            font-size: 64px;
+            color: white;
+        }
+
+        .content{
+            display: grid;
+            padding-top: 1rem;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 3rem;
+        
+            img{
+                width: 100%;
+                
+            }
+        
+            .gamename{
+                font-family: 'Baloo 2';
+                color: white;
+                font-size: 24px;
+                font-weight: bold;
+                text-align: center;
+                padding-top: 1rem;
+            }
+        }
+    }
+}

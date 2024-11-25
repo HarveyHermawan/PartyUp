@@ -1,0 +1,28 @@
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    z-index: 1000;
+    padding-bottom: 3%;
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+
+
+        .logo{
+            font-size: 40px;
+            color: #fff;
+            font-family: 'Bagel Fat One';
+            margin-left: -9.5%;
+        }
+        
+        .loginbtn{
+            height: 65px;
+            width: 180px;
+            margin-top: 10px;
+            font-size: 24px;
+        }
+    }
+}

@@ -1,0 +1,161 @@
+.shoppage{
+    background-image: linear-gradient(#7D1673 5%, #7740B9 30%, #7069FF 80%);
+    height: auto;
+    width: 100%;
+    padding-top: 2%;
+
+    .shop-container {
+        padding: 50px 0;
+        width: 100%;
+        display: flex;
+        min-height: 100vh;
+        align-items: center;
+        flex-direction: column;
+      }
+      
+      .content-container{
+        width: 95%;
+      }
+      
+      .shop-title{
+        margin-left: 65px;
+        display: flex;
+        width: 230px;
+        justify-content: space-between;
+      }
+      
+      .shop-title h2{
+        font-size: 64px;
+        color: #ffffff;
+        font-size: 32px;
+        font-weight: bold;
+        font-family: 'Baloo 2';
+      }
+      
+      .shop-title img{
+        height: 60px;
+        align-self: center;
+      }
+      
+      .avatar-container{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+        margin-left: 65px;
+        padding-top: 1%;
+      }
+      
+      .avatar-container h2{
+        font-size: 32px;
+        color: #ffffff;
+        font-size: 32px;
+        font-weight: bold;
+        font-family: 'Baloo 2';
+      }
+      
+      .avatar-container h3{
+        font-family: Baloo;
+        font-size: 30px;
+        color: #ffffff;
+        align-self: flex-end;
+        margin-right: 35px;
+      }
+      
+      
+      .avatar-list{
+        width: 100%;
+      }
+      
+      .avatar-list ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+      
+      .avatar-list li {
+        float: left;
+        vertical-align: middle;
+      }
+      
+      .avatar-list a {
+        display: block;
+        padding: 8px;
+        color: #ffffff;
+        text-decoration: none;
+        align-items: center;
+        font-size: 30px;
+        font-family: Baloo;
+        font-weight: bold;
+      }
+      
+      .avatar-list img{
+        vertical-align: middle;
+        width: auto;
+      }
+      
+      .boost-container{
+        margin-left: 65px;
+        align-self: flex-start;
+      }
+      
+      .boost-title{
+        display: flex;
+        font-family: Baloo;
+        color: #ffffff;
+        align-self: flex-start;
+        width: auto;
+        height: 50px;
+        margin-bottom: 50px;
+      }
+      
+      .boost-title h2{
+        font-size: 32px;
+        margin-right: 10px;
+        font-size: 32px;
+        font-weight: bold;
+        font-family: 'Baloo 2';
+      }
+      
+      .boost-shop{
+        margin-left: 40px;
+      }
+      
+      .member-container{
+        margin-left: 65px;
+        align-self: flex-start;
+      }
+      
+      .member-title{
+        display: flex;
+        font-family: Baloo;
+        color: #ffffff;
+        align-self: flex-start;
+        width: auto;
+        height: 50px;
+        margin-top: 50px;
+        margin-bottom: 40px;
+        vertical-align: middle;
+        /* border-style: solid; */
+      }
+      
+      .member-title img{
+        vertical-align: middle;
+        height: 50px;
+      }
+      
+      .member-title-text{
+        vertical-align: middle;
+        font-size: 32px;
+        font-weight: bold;
+        height: auto;
+        font-family: 'Baloo 2';
+      }
+      
+      .member-shop{
+        margin-left: 40px;
+      }
+}

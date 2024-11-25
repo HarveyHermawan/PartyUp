@@ -1,0 +1,6 @@
+.profilepage{
+  background: linear-gradient(180deg, rgba(125, 22, 115, 1) 5%, rgba(119, 64, 185, 1) 30%, rgba(112, 105, 255, 1) 82%); 
+  height: 100%;
+  width: 100%;
+  padding-top: 2%;
+}

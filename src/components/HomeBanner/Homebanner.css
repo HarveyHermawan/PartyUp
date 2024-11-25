@@ -1,0 +1,21 @@
+.homebanner{
+    padding: 1% 4%;
+
+    .image{
+        width: 150%;
+        height: auto;
+    }
+    
+    .text{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        line-height: 1;
+        color: white;
+        font-size: 64px;
+        font-family: 'Baloo 2';
+        font-weight: bold;
+        text-align: center;
+    }
+}

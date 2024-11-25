@@ -1,0 +1,97 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding-bottom: 1%;
+    padding-top: 0.5%;
+    transition: background-color 0.2s ease;
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+
+        .logo{
+            font-size: 40px;
+            color: #fff;
+            font-family: 'Bagel Fat One';
+            margin-left: -7%;
+        }
+
+        .select{
+            /* justify-content: space-between; */
+            align-items: center;
+            display: flex;
+            margin-right: -6%;
+
+            .home-text{
+                font-size: 24px;
+                font-weight: bold;
+                color: #fff;
+                /* padding-right: 5%;    */
+                
+                font-family: 'Baloo 2';
+            }
+
+            .games-text{
+                font-size: 24px;
+                font-weight: bold;
+                color: #fff;
+                /* padding-right: 5%; */
+                margin-left: 3%;
+                font-family: 'Baloo 2';
+            }
+
+            .connect-text{
+                font-size: 24px;
+                font-weight: bold;
+                color: #fff;
+                /* padding-right: 5%; */
+                margin-left: 3%;
+                font-family: 'Baloo 2';
+            }
+
+            .shop-text{
+                font-size: 24px;
+                font-weight: bold;
+                color: #fff;
+                /* padding-right: 5%; */
+                margin-left: 3%;
+                font-family: 'Baloo 2';
+            }
+
+            .currency{
+                font-size: 24px;
+                font-weight: bold;
+                color: #fff;
+                font-family: 'Baloo 2';
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-left: 3%;
+
+                .coin{
+                    width: 85%;
+                    height: 85%;
+                    
+                }
+            }
+
+            .profile{
+                display: flex;
+                width: 100%;
+                height: 100%;
+                margin-left: 10%;
+            }
+        } 
+        
+    }
+}
+
+.navbar.scrolled{
+    background-color: #7D1673;
+}

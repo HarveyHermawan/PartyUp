@@ -1,0 +1,157 @@
+body {
+    width:  100%;
+    height: 100%;
+    font-weight: 400;
+    font-style:normal;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: normal;
+    line-height: 1.15;
+    color: var(--dl-color-theme-neutral-dark);
+    background: var(--dl-color-theme-neutral-light);
+    fill: var(--dl-color-theme-neutral-dark);
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .login-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(180deg, rgba(125, 22, 115, 1) 5%, rgba(119, 64, 185, 1) 30%, rgba(112, 105, 255, 1) 82%);
+    padding: 50px 0;
+    overflow: hidden;
+  }
+  
+  .partyup-logo{
+    align-self: flex-start;
+    margin-left: 4%;
+    font-family: 'Bagel Fat One';
+    font-size: 40px;
+    color: #fff;
+  }
+  
+  .login-form {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 50px 50px;
+    border-radius: 10px;
+    width: 500px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    margin-top: 100px;
+  }
+  
+  .register-form {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px 50px;
+    border-radius: 10px;
+    width: 500px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    margin-top: 50px;
+  }
+  
+  .register-form-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Baloo 2';
+    justify-self: center;
+    border-bottom: 4px solid;
+    margin-bottom: 5%;
+  }
+  
+  .login-form-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 0px;
+    font-family: 'Baloo 2';
+    justify-self: center;
+    border-bottom: 4px solid;
+    margin-bottom: 5%;
+  }
+  
+  .form-title-container{
+    display: flex;
+    justify-content: center;
+  }
+  
+  label {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #ffffff;
+    font-family: 'Baloo 2';
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    background: #682a82;
+    color: #ffffff;
+  }
+  
+  input::placeholder {
+    font-family: 'Poppins', sans-serif;
+    color: #b29ac3;
+  }
+  
+  .forgot-password {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 0.8rem;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
+  .button-container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .login-btn {
+    width: 120px;
+    padding: 10px;
+    background: #7740B9;
+    border: none;
+    border-radius: 22.5px; 
+    color: #ffffff;
+    font-family: 'Baloo 2';
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .login-btn:hover {
+    background: #ae70e3;
+  }
+  
+  .switch-hyperlink-container{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .switch-link {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #d7c0ed;
+    text-decoration: none;
+  }
+  
+  .switch-link:hover {
+    text-decoration: underline;
+  }
+
